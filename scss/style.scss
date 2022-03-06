@@ -4,19 +4,24 @@
 
 /*Foundation*/
 @use "Foundation/base"; 
+@use "Foundation/mixin";
+@use "Foundation/variable";
+
 
 
 /*Layout*/
-@use "layout/l-footer";
-@use "layout/l-header";
-@use "layout/l-main";
-@use "layout/l-sideber";
+@use "layout/footer";
+@use "layout/header";
+@use "layout/main";
+@use "layout/sideber";
 
 
 /*Object*/
 
 /*component*/
-
+@use "Object/component/title";
+@use "Object/component/button";
+@use "Object/component/grid";
 
 
 /*project*/
