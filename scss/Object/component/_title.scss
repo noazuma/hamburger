@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-@use "/scss/Foundation/mixin";
-@use "/scss/Foundation/variable";
+@use "../../Foundation/mixin";
+// @use "scss/Foundation/variable";
 
 
 .c-title {
     color: #707070;
     text-align: center;
+    margin: 0 auto;
 //     @include m.sp{
         
 //     }

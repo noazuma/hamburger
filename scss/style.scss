@@ -9,14 +9,14 @@
 
 
 
-/*Layout*/
+// /*Layout*/
 @use "Layout/footer";
 @use "Layout/header";
 @use "Layout/main";
 @use "Layout/sideber";
 
 
-/*Object*/
+// /*Object*/
 
 /*component*/
 @use "Object/component/title";
@@ -24,10 +24,15 @@
 @use "Object/component/grid";
 
 
-/*project*/
 
+/*project*/
+@use "Object/project/p-header";
+@use "Object/project/p-serach";
 
 
 
 /*utility*/
 
+// h1 {
+//     color: aqua;
+// }
