@@ -13,12 +13,15 @@ a {
   display: inline-block;
 }
 
+.l-sideber {
+  position: absolute;
+}
+
 .c-title {
   color: #707070;
   text-align: center;
   margin: 0 auto;
 }
-
 c-grid {
   display: grid;
 }
@@ -28,8 +31,20 @@ c-grid {
 }
 
 .p-serach {
+  display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+.p-main {
+  text-align: center;
+}
+
+.p-main--front {
+  background-image: url(/img/mainvisual-sp.jpg);
+  background-size: cover;
+  height: 285px;
+  width: 375px;
 }
 
 /*Foundation*/
