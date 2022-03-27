@@ -2,8 +2,16 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
+body {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 .l-header {
@@ -15,7 +23,10 @@ a {
 }
 
 .l-sideber {
-  position: absolute;
+  position: fixed;
+  background-color: #FFFFFF;
+  top: 0;
+  left: 0;
 }
 
 .c-title {
@@ -23,11 +34,20 @@ a {
   text-align: center;
   margin: 0 auto;
 }
+.c-title__menu {
+  color: #707070;
+  width: 51px;
+  height: 21px;
+}
+
 c-grid {
   display: grid;
 }
 
-.p-header__menu {
+.p-head {
+  text-align: center;
+}
+.p-head__menu {
   text-align: right;
 }
 
@@ -37,15 +57,14 @@ c-grid {
   text-align: center;
 }
 
-.p-main {
+.p-front {
   text-align: center;
 }
 
-.p-main--front {
+.p-front--main {
   background-image: url(/img/mainvisual-sp.jpg);
   background-size: cover;
   height: 285px;
-  width: 375px;
 }
 
 /*Foundation*/
