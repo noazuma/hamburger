@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@use "../../Foundation/mixin";
+
+
 
 .p-head {
     text-align: center;
@@ -10,6 +13,7 @@
 
     &__menu {
         text-align: right;
+        font-size: 20px;
     }
     
 }
