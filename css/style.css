@@ -1,5 +1,5 @@
 * {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "M PLUS 1", sans-serif;
 }
 
 body {
@@ -76,7 +76,7 @@ c-grid {
 .p-sidemenu__sub {
   color: #707070;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: lighter;
 }
 
 .p-nav {

@@ -4,7 +4,7 @@
 @use "../../Foundation/variable" as v;
 
 .p-sidemenu {
-        // background-color: #F2EDE9;
+
     &__main {
         color: #808080;
         font-size: 24px;
@@ -14,7 +14,7 @@
     &__sub {
         color: #707070;
         font-size: 20px;
-        font-weight: 200;
+        font-weight: lighter;
     }
 
 }
