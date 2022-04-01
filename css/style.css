@@ -14,6 +14,10 @@ ul li {
   list-style-type: none;
 }
 
+h2 {
+  color: #FFFFFF;
+}
+
 .l-header {
   width: 100%;
   height: 217px;
@@ -27,6 +31,8 @@ ul li {
   background-color: #F2EDE9;
   top: 0;
   left: 0;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .c-title {
@@ -34,10 +40,9 @@ ul li {
   text-align: center;
   margin: 0 auto;
 }
-.c-title__menu {
+
+.c-button--menu {
   color: #707070;
-  width: 51px;
-  height: 21px;
 }
 
 c-grid {
@@ -46,6 +51,12 @@ c-grid {
 
 .p-head {
   text-align: center;
+}
+.p-head__title {
+  color: #707070;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 0 38px 0;
 }
 .p-head__menu {
   text-align: right;
@@ -57,13 +68,18 @@ c-grid {
   margin: 0 auto;
   text-align: center;
 }
+.p-serach__box {
+  border: 0.1px solid #000;
+  border-radius: 10px;
+}
 
-.p-front {
-  text-align: center;
+.p-front__title {
+  font-size: 36px;
+  padding: 120px 134px 115px 24px;
 }
 
 .p-front--main {
-  background-image: url(/img/mainvisual-sp.jpg);
+  background-image: url(/img/mainvisual-sp@2x.jpg);
   background-size: cover;
   height: 285px;
 }

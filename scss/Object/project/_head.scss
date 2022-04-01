@@ -7,8 +7,11 @@
 .p-head {
     text-align: center;
 
-    &_title {
-
+    &__title {
+        color: #707070;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px 0 38px 0;
     }
 
     &__menu {

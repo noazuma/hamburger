@@ -3,15 +3,20 @@
 
 
 .p-front {
-    text-align: center;
+    // text-align: center;
 
+    &__title{
+        font-size: 36px;
+        padding: 120px 134px 115px 24px;
+
+    }
 
     
 
 }
 
 .p-front--main {
-   background-image: url(/img/mainvisual-sp.jpg);
+   background-image: url(/img/mainvisual-sp@2x.jpg);
    background-size: cover;
    height: 285px;
 //    width: 375px;
