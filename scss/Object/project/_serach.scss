@@ -10,6 +10,12 @@
     &__box {
         border: 0.1px solid  #000;
         border-radius: 10px;
+        height: 46px;
+        width: 230px;
     }
 
+    &--submit {
+        height: 46px;
+        width: 78px;
+    }
 }
