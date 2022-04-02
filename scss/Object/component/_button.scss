@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
-.c-button--menu {
+@use "../../Foundation/variable" as v;
+
+.c-button{
+
+
+    &--menu {
             color: #707070;
+            font-family :v.$roboto;
+    }
+
+    &--submit {
+                height: 46px;
+                width: 78px;
+                border-radius: 10px;
+                border: solid 0.1px;
+                background-color: #F2EDE9;
+            }
 }
+
