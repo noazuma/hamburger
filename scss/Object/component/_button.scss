@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@use "../../Foundation/mixin" as m;
 @use "../../Foundation/variable" as v;
 
 .c-button{
@@ -16,6 +17,7 @@
                 border-radius: 10px;
                 border: solid 0.1px;
                 background-color: #F2EDE9;
+                margin-left: 6px;
             }
 }
 
