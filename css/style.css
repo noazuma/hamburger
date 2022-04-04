@@ -63,6 +63,10 @@ c-grid {
   display: grid;
 }
 
+.c-container {
+  background-image: url(/img/top-menu/three-burgers-on.png);
+}
+
 .p-head {
   text-align: center;
 }
@@ -116,7 +120,7 @@ c-grid {
   margin-top: 217px;
 }
 
-.p-branch-menu {
+.p-branch {
   grid-template-rows: 1fr 1fr;
 }
 

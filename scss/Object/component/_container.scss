@@ -3,7 +3,6 @@
 @use "../../Foundation/mixin" as m;
 @use "../../Foundation/variable" as v;
 
-
-.p-branch-menu {
-    grid-template-rows: 1fr 1fr;
+.c-container {
+    background-image: url(/img/top-menu/three-burgers-on.png);
 }

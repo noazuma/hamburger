@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+.p-branch {
+    grid-template-rows: 1fr 1fr;
+
+    // &--menu {
+    //     background-image: url(/img/top-menu/three-burgers-on-brown-wooden-tray-between-white-ceramic-1841108.png);
+    // }
+}
