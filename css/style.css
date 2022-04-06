@@ -35,7 +35,7 @@ h2 {
   position: fixed;
   background-color: #F2EDE9;
   top: 0;
-  left: 0;
+  right: 0;
   height: 100vh;
   overflow: scroll;
 }
@@ -63,8 +63,13 @@ c-grid {
   display: grid;
 }
 
-.c-container {
-  background-image: url(/img/top-menu/three-burgers-on.png);
+.c-container__take-out {
+  display: flex;
+  background-image: url(../img/top-menu/three-burgers-on.png);
+}
+.c-container__eat-in {
+  display: flex;
+  background-image: url(../../../img/top-menu/burger-side.png);
 }
 
 .p-head {
