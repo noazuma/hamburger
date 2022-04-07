@@ -6,15 +6,20 @@
 .c-container {
 
     &__take-out {
-        display: flex;
+        // display: flex;
         background-image: url(../img/top-menu/three-burgers-on.png);
+        flex-direction: column;
+        background-size: cover;
+        width: 335px;
     }
 
 
-    &__eat-in {
-         display: flex;  
-         background-image: url(../../../img/top-menu/burger-side.png);
 
-         
+    &__eat-in {
+        // display: flex;  
+        background-image: url(../../../img/top-menu/burger-side.png);
+        flex-direction: column;
+        background-size: cover;
+        width: 336px;
     }
 }

@@ -64,12 +64,16 @@ c-grid {
 }
 
 .c-container__take-out {
-  display: flex;
   background-image: url(../img/top-menu/three-burgers-on.png);
+  flex-direction: column;
+  background-size: cover;
+  width: 335px;
 }
 .c-container__eat-in {
-  display: flex;
   background-image: url(../../../img/top-menu/burger-side.png);
+  flex-direction: column;
+  background-size: cover;
+  width: 336px;
 }
 
 .p-head {
@@ -127,6 +131,9 @@ c-grid {
 
 .p-branch {
   grid-template-rows: 1fr 1fr;
+  margin: 20px 20px;
+  gap: 20px;
+  height: 1200px;
 }
 
 /*Foundation*/
