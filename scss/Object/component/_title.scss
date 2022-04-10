@@ -6,16 +6,10 @@
 
 .c-title {
     color: #707070;
-    text-align: center;
-    margin: 0 auto;
-//     @include m.sp{
-        
-//     }
-//     &__menu{
-//         color: #707070;
-//         width: 51px;
-//         height: 21px;
-//     }
-
+    // text-align: center;
+    // margin: 0 auto;
 }
 
+.c-title__sub{
+    font-size: 41px;
+}

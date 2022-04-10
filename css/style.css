@@ -17,6 +17,8 @@ ul li {
 
 h2 {
   color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .l-header {
@@ -42,8 +44,10 @@ h2 {
 
 .c-title {
   color: #707070;
-  text-align: center;
-  margin: 0 auto;
+}
+
+.c-title__sub {
+  font-size: 41px;
 }
 
 .c-button--menu {
@@ -59,7 +63,7 @@ h2 {
   margin-left: 6px;
 }
 
-c-grid {
+.c-grid {
   display: grid;
 }
 
@@ -68,22 +72,24 @@ c-grid {
   flex-direction: column;
   background-size: cover;
   width: 335px;
+  height: 642px;
 }
 .c-container__eat-in {
   background-image: url(../../../img/top-menu/burger-side.png);
   flex-direction: column;
   background-size: cover;
   width: 336px;
+  height: 643px;
 }
 
 .p-head {
   text-align: center;
 }
 .p-head__title {
-  color: #707070;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   padding: 10px 0 38px 0;
+  margin: 0 auto;
 }
 .p-head__menu {
   text-align: right;
@@ -133,7 +139,6 @@ c-grid {
   grid-template-rows: 1fr 1fr;
   margin: 20px 20px;
   gap: 20px;
-  height: 1200px;
 }
 
 /*Foundation*/

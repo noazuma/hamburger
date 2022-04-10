@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@use "../../Foundation/mixin";
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 
 
@@ -8,10 +9,11 @@
     text-align: center;
 
     &__title {
-        color: #707070;
+        // color: #707070;
         font-size: 40px;
         font-family: 'Roboto', sans-serif;
         padding: 10px 0 38px 0;
+        margin: 0 auto;
     }
 
     &__menu {
