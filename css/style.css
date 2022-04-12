@@ -48,6 +48,7 @@ h2 {
 
 .c-title__sub {
   font-size: 41px;
+  margin: 12px auto auto 13px;
 }
 
 .c-button--menu {
@@ -65,21 +66,6 @@ h2 {
 
 .c-grid {
   display: grid;
-}
-
-.c-container__take-out {
-  background-image: url(../img/top-menu/three-burgers-on.png);
-  flex-direction: column;
-  background-size: cover;
-  width: 335px;
-  height: 642px;
-}
-.c-container__eat-in {
-  background-image: url(../../../img/top-menu/burger-side.png);
-  flex-direction: column;
-  background-size: cover;
-  width: 336px;
-  height: 643px;
 }
 
 .p-head {
@@ -139,6 +125,29 @@ h2 {
   grid-template-rows: 1fr 1fr;
   margin: 20px 20px;
   gap: 20px;
+}
+.p-branch--menu {
+  display: grid;
+}
+.p-branch--menu__box {
+  background: rgba(255, 255, 255, 0.8);
+  height: 163px;
+  width: 314px;
+}
+
+.p-container__take-out {
+  background-image: url(../img/top-menu/three-burgers-on.png);
+  flex-direction: column;
+  background-size: cover;
+  width: 335px;
+  height: 642px;
+}
+.p-container__eat-in {
+  background-image: url(../../../img/top-menu/burger-side.png);
+  flex-direction: column;
+  background-size: cover;
+  width: 336px;
+  height: 643px;
 }
 
 /*Foundation*/
