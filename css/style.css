@@ -25,6 +25,10 @@ h2 {
   margin: 0px;
 }
 
+.l-footer {
+  background-color: #9D8670;
+}
+
 .l-header {
   width: 100%;
   height: 217px;
@@ -75,13 +79,13 @@ h2 {
 
 .c-position {
   position: relative;
-  top: 6.5rem;
+  top: 4.2rem;
 }
 
 .c-line {
   width: 33.89px;
   height: 3px;
-  color: #FFF7EF;
+  background-color: #FFF7EF;
 }
 
 .p-head {
