@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+.c-line {
+    width: 33.89px;
+    height: 3px;
+    color: v.$back-color;
+}
