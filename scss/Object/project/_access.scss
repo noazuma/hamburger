@@ -4,3 +4,9 @@
 @use "../../Foundation/variable" as v;
 
 
+.p-access {
+
+    &__text {
+        text-align: center;
+    }
+}

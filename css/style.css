@@ -92,12 +92,28 @@ h2 {
   background-color: #FFF7EF;
   display: block;
 }
+.c-line__access {
+  width: 75px;
+  height: 5px;
+  background-color: #FFF7EF;
+  display: block;
+  position: relative;
+  left: 2.8rem;
+}
 
 .c-map {
   background-image: url(/img/map/br-map.png);
   background-size: cover;
   height: 691px;
   margin-top: 3rem;
+}
+.c-map__strong {
+  background: rgba(0, 0, 0, 0.7);
+  height: 1rem;
+}
+.c-map__light {
+  background: rgba(0, 0, 0, 0.1);
+  height: 3rem;
 }
 
 .p-head {
@@ -186,6 +202,10 @@ h2 {
   background-size: cover;
   width: 336px;
   height: 643px;
+}
+
+.p-access__text {
+  text-align: center;
 }
 
 /*Foundation*/

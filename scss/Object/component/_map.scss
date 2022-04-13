@@ -11,4 +11,14 @@
     // width: 375px;
     margin-top: 3rem;
     
+
+    &__strong {
+        background: rgba(0,0,0,0.7);
+        height: 1rem;
+    }
+
+    &__light {
+        background: rgba(0,0,0,0.1);
+        height: 3rem;
+    }
 }
