@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+.c-map {
+    background-image: url(/img/map/br-map.png);
+    background-size: cover;
+    height: 691px;
+    // width: 375px;
+    margin-top: 3rem;
+    
+}

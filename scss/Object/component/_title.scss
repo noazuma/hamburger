@@ -6,9 +6,17 @@
 
 .c-title {
     color: #707070;
+
+    &__sub {
+        font-size: 41px;
+        margin: 12px auto auto 13px;
 }
 
-.c-title__sub{
-    font-size: 41px;
-    margin: 12px auto auto 13px;
+    &__map {
+        font-size: 30px;
+        margin: 40px auto auto 42px;
+    }
+
+
+
 }

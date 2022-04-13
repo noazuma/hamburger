@@ -6,6 +6,13 @@
 
 .c-line {
     width: 33.89px;
-    height: 3px;
+    height: 4px;
     background-color: v.$back-color;
+    display: block;
+
+    // &__menu {
+    //     position: relative;
+    //     left: 13px;
+    //     bottom: 3.6rem;
+    // }
 }

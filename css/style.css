@@ -27,6 +27,7 @@ h2 {
 
 .l-footer {
   background-color: #9D8670;
+  height: 150px;
 }
 
 .l-header {
@@ -54,10 +55,13 @@ h2 {
 .c-title {
   color: #707070;
 }
-
 .c-title__sub {
   font-size: 41px;
   margin: 12px auto auto 13px;
+}
+.c-title__map {
+  font-size: 30px;
+  margin: 40px auto auto 42px;
 }
 
 .c-button--menu {
@@ -84,8 +88,16 @@ h2 {
 
 .c-line {
   width: 33.89px;
-  height: 3px;
+  height: 4px;
   background-color: #FFF7EF;
+  display: block;
+}
+
+.c-map {
+  background-image: url(/img/map/br-map.png);
+  background-size: cover;
+  height: 691px;
+  margin-top: 3rem;
 }
 
 .p-head {
@@ -154,6 +166,11 @@ h2 {
   height: 163px;
   width: 314px;
   margin: 0.6rem;
+}
+.p-branch--menu__line {
+  position: relative;
+  left: 13px;
+  bottom: 3.6rem;
 }
 
 .p-container__take-out {
