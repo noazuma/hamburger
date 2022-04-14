@@ -13,12 +13,14 @@
     
 
     &__strong {
-        background: rgba(0,0,0,0.7);
-        height: 1rem;
+        background: rgba(0,0,0,0.5);
+        height: 60%;
+        z-index: 5;
     }
 
     &__light {
         background: rgba(0,0,0,0.1);
-        height: 3rem;
+        height: 100%;
+        z-index: 1;
     }
 }
