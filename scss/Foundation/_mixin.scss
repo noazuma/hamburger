@@ -3,7 +3,7 @@
 // breakpoint
 
 $breakpoints: (
-  sp: 'screen and (max-width: 320px)',
+  sp: 'screen and (max-width: 380px)',
   tab: 'screen and (min-width: 768px)',
   pc: 'screen and (min-width: 1025px)'
 )!default;

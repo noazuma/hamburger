@@ -6,6 +6,13 @@
 
 .p-access {
 
+    background-image: url(/img/map/br-map.png);
+    background-size: cover;
+    height: 691px;
+    // width: 375px;
+    margin-top: 3rem;
+    
+
     &__text {
         text-align: center;
     }

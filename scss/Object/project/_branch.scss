@@ -9,6 +9,10 @@
     margin: 20px 20px;
     gap: 20px;
 
+    @include m.mq(tab) {
+        display: flex;
+    }
+
 
     &--menu {
         display: grid;
