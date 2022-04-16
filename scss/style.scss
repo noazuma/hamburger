@@ -25,6 +25,7 @@
 @use "Object/component/position";
 @use "Object/component/line";
 @use "Object/component/map";
+@use "Object/component/partition";
 
 
 
@@ -37,6 +38,7 @@
 @use "Object/project/branch";
 @use "Object/project/container";
 @use "Object/project/access";
+@use "Object/project/p-footer";
 
 /*utility*/
 

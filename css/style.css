@@ -28,14 +28,20 @@ h2 {
 .l-footer {
   background-color: #9D8670;
   height: 150px;
+  padding: 1.8rem;
 }
 
 .l-header {
   width: 100%;
   height: 217px;
   background-color: #FFF7EF;
-  display: flex;
-  flex-direction: column;
+  display: block;
+}
+@media screen and (min-width: 1553px) {
+  .l-header {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .l-main {
@@ -106,6 +112,13 @@ h2 {
   left: 2.8rem;
   top: 2em;
 }
+.c-line--footer {
+  width: 0.1rem;
+  height: 1.2rem;
+  display: block;
+  background-color: #fff;
+  margin: 0.5rem;
+}
 
 .c-map__strong {
   background: rgba(0, 0, 0, 0.5);
@@ -125,7 +138,7 @@ h2 {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   padding: 10px 0 38px 0;
-  margin: 0 auto;
+  text-align: center;
 }
 .p-head__menu {
   text-align: right;
@@ -177,7 +190,7 @@ h2 {
   margin: 20px 20px;
   gap: 20px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 835px) {
   .p-branch {
     display: flex;
   }
@@ -219,6 +232,24 @@ h2 {
   margin-top: 3rem;
 }
 .p-access__text {
+  text-align: center;
+}
+
+.p-footer {
+  display: flex;
+  color: #FFFFFF;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 0%;
+  padding: 0 1.3rem;
+}
+.p-footer__shop {
+  color: #FFFFFF;
+}
+.p-footer__cp {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: regular;
   text-align: center;
 }
 
