@@ -37,7 +37,7 @@ h2 {
   background-color: #FFF7EF;
   display: block;
 }
-@media screen and (min-width: 1553px) {
+@media screen and (min-width: 1025px) {
   .l-header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,7 @@ h2 {
   background-color: #F2EDE9;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 100%;
   overflow: scroll;
   z-index: 1000;
 }
@@ -72,7 +72,7 @@ h2 {
 }
 .c-title__map {
   font-size: 30px;
-  margin: 40px auto auto 42px;
+  margin: 0px auto auto 42px;
 }
 
 .c-button--menu {
@@ -121,14 +121,12 @@ h2 {
 }
 
 .c-map__strong {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   height: 60%;
-  z-index: 5;
 }
 .c-map__light {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   height: 100%;
-  z-index: 1;
 }
 
 .p-head {
@@ -169,6 +167,19 @@ h2 {
   background-size: cover;
   height: 285px;
 }
+@media screen and (min-width: 700px) {
+  .p-front--main {
+    background-image: url(/img/mainvisual-tab.png);
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-front--main {
+    background-image: url(../img/mainvisual-pc.jpg);
+    background-size: cover;
+    height: 530px;
+  }
+}
 
 .p-sidemenu__main {
   color: #808080;
@@ -190,9 +201,10 @@ h2 {
   margin: 20px 20px;
   gap: 20px;
 }
-@media screen and (min-width: 835px) {
+@media screen and (min-width: 700px) {
   .p-branch {
     display: flex;
+    justify-content: center;
   }
 }
 .p-branch--menu {
