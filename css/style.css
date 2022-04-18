@@ -72,7 +72,7 @@ h2 {
 }
 .c-title__map {
   font-size: 30px;
-  margin: 0px auto auto 42px;
+  margin: 40px auto auto 42px;
 }
 
 .c-button--menu {
@@ -123,10 +123,12 @@ h2 {
 .c-map__strong {
   background: rgba(0, 0, 0, 0.4);
   height: 60%;
+  position: absolute;
 }
 .c-map__light {
   background: rgba(0, 0, 0, 0.3);
   height: 100%;
+  position: relative;
 }
 
 .p-head {
@@ -213,7 +215,6 @@ h2 {
 .p-branch--menu__box {
   background: rgba(255, 255, 255, 0.8);
   height: 163px;
-  width: 314px;
   margin: 0.6rem;
 }
 .p-branch--menu__line {
@@ -226,14 +227,12 @@ h2 {
   background-image: url(../img/top-menu/three-burgers-on.png);
   flex-direction: column;
   background-size: cover;
-  width: 335px;
   height: 642px;
 }
 .p-container__eat-in {
   background-image: url(../../../img/top-menu/burger-side.png);
   flex-direction: column;
   background-size: cover;
-  width: 336px;
   height: 643px;
 }
 
