@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+
+@use "../Foundation/mixin" as m;
+@use "../Foundation/variable" as v;
+
 .l-sideber {
     position: fixed;
     background-color: #F2EDE9;
@@ -11,8 +15,10 @@
 
 
 
-    // @include m.mq(pc) {
-    //     display: grid;
-
-    // }
+    @include m.mq(pc) {
+        display: grid;
+        grid-column: 2/3;
+        right: 0;
+        overflow: hidden;
+    }
 }
