@@ -12,11 +12,26 @@
     @include m.mq(tab) {
         display: flex;
         justify-content: center;
+        gap:40px;
+    }
+
+    @include m.mq(pc) {
+        // display: flex;
+        // justify-content: center;
+        gap:80px;
+        margin: 80px 80px;
     }
 
 
     &--menu {
         display: grid;
+        height: 643px;
+        width: 335px;
+
+        @include m.mq(tab) {
+            height: 681px;
+            width: 356px;
+        }
         
         &__box {
             background: rgba(255,255,255,0.8);
@@ -30,5 +45,11 @@
             left: 13px;
             bottom: 3.6rem;
         }
+    }
+
+    &__sub {
+        font-size: 16px;
+        // font-weight: lighter;
+        padding: 0.5rem;
     }
 }

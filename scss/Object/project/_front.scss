@@ -30,7 +30,7 @@
 
    @include m.mq(pc) {
        background-image: url(../img/mainvisual-pc.jpg);
-       background-size: cover;
+       background-position: right;
        height: 530px;
    }
 
