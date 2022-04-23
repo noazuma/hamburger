@@ -21,6 +21,8 @@
         grid-row: 1/4;
         right: 0;
         position:static;
-        width: 367px;
+        // width: 367px;
+        grid-template-rows: 367px;
+        // grid-template-columns: ;
     }
 }
