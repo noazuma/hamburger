@@ -4,7 +4,7 @@ $(".c-button--menu").click(function ()
 {//ボタンがクリックされたら
 
 
-  $(this).toggleClass('l-sideber');
+  // $(this).toggleClass('l-sideber');
     //ボタン自身に activeクラスを付与し
     $("#g-nav").toggleClass('panelactive');
     //ナビゲーションにpanelactiveクラスを付与

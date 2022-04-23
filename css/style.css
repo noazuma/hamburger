@@ -48,6 +48,7 @@ h2 {
   height: 217px;
   background-color: #FFF7EF;
   display: block;
+  position: relative;
 }
 @media screen and (min-width: 1025px) {
   .l-header {
@@ -171,9 +172,10 @@ h2 {
   text-align: center;
 }
 .p-head__menu {
-  text-align: right;
+  position: absolute;
   font-size: 20px;
-  margin-right: 0.8rem;
+  top: 14px;
+  right: 16px;
 }
 
 .p-serach {
