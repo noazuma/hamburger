@@ -1,17 +1,20 @@
+$(function() {
 
-
-$(".c-button--menu").click(function () 
+$('.c-button--menu').on("click",function () 
 {//ボタンがクリックされたら
 
-
-  // $(this).toggleClass('l-sideber');
-    //ボタン自身に activeクラスを付与し
-    $("#g-nav").toggleClass('panelactive');
-    //ナビゲーションにpanelactiveクラスを付与
+  $('.l-sideber').toggleClass('open');
+    //ボタン自身に openクラスを付与し
+   $('.c-cover').toggleClass('active');
+    // activeクラスを付与
 });
 
-$("#g-nav a").click(function () 
-{//ナビゲーションのリンクがクリックされたら
-    $(".c-button--menu").removeClass('l-sideber');//ボタンの activeクラスを除去し
-    $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+// $('.c-button--menu').click(function () 
+// {//ナビゲーションのリンクがクリックされたら
+//     $('.c-button--menu').removeClass('open');
+//     //ボタンの activeクラスを除去し
+//     $('.c-cover').removeClass('active');
+//     //オーバーレイのactiveクラスも除去
+// });
+
 });

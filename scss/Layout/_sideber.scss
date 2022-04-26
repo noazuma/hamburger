@@ -12,6 +12,13 @@
     height: 100%;
     overflow: scroll;
     z-index: 1000;
+    width: 87%;
+
+    &.open {
+        right: 0%;
+        // transform: translateX()
+        // transition: 3ms;
+    }
 
 
 

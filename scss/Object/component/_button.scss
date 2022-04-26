@@ -5,9 +5,7 @@
 
 .c-button{
 
-    &--menu {
-
-    }
+    
 
 
     &--menu {
@@ -22,6 +20,19 @@
                 border: solid 0.1px;
                 background-color: #F2EDE9;
                 margin-left: 6px;
+            }    
+            
+            
+
+    &__close {
+            position: absolute;
+            top:10px;
+            left: 10px;
+
             }
+
+
+
+
 }
 

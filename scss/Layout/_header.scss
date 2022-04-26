@@ -10,13 +10,10 @@
     background-color: #FFF7EF;
     display: block;
     position: relative;
-    // flex-direction: column;
+
+
+
     
-    
-    // @include m.mq(pc) {
-    //     display: flex;
-    //     justify-content: space-between;
-    // }
 
     @include m.mq(pc) {
         display: grid;
