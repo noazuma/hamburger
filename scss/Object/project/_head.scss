@@ -26,6 +26,9 @@
         // margin-right: 0.8rem;
         top: 14px;
         right: 16px;
+        @include m.mq(pc) {
+            display: none;
+        }
     }
     
 }

@@ -83,6 +83,11 @@ h2 {
   right: 0%;
 }
 @media screen and (min-width: 1025px) {
+  .l-sideber.open {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
   .l-sideber {
     display: grid;
     grid-column: 2/3;
@@ -90,6 +95,7 @@ h2 {
     right: 0;
     position: static;
     grid-template-rows: 367px;
+    width: 100%;
   }
 }
 
@@ -113,6 +119,8 @@ h2 {
 .c-button--menu {
   color: #707070;
   font-family: "Roboto", sans-serif;
+  position: absolute;
+  right: 5rem;
 }
 .c-button--submit {
   height: 46px;
@@ -124,8 +132,11 @@ h2 {
 }
 .c-button__close {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  right: 7px;
+  border: none;
 }
 
 .c-grid {
@@ -150,7 +161,7 @@ h2 {
   display: block;
   position: relative;
   left: 2.8rem;
-  top: 2em;
+  top: 1.2rem;
 }
 .c-line--footer {
   width: 0.1rem;
@@ -159,10 +170,25 @@ h2 {
   background-color: #fff;
   margin: 0.5rem;
 }
-.c-line__menu {
+.c-line__menu1 {
   width: 32px;
   height: 4px;
   background-color: #707070;
+  display: block;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 25px;
+  right: 17px;
+}
+.c-line__menu2 {
+  width: 32px;
+  height: 4px;
+  background-color: #707070;
+  display: block;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 25px;
+  right: 17px;
 }
 
 .c-map__strong {
@@ -189,6 +215,23 @@ h2 {
   background-color: rgba(15, 14, 14, 0.5);
 }
 
+.c-close__menu {
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  .c-close__menu {
+    display: inline-block;
+  }
+}
+.c-close__bt {
+  display: inline-block;
+}
+@media screen and (min-width: 1025px) {
+  .c-close__bt {
+    display: none;
+  }
+}
+
 .p-head {
   text-align: center;
 }
@@ -203,6 +246,11 @@ h2 {
   font-size: 20px;
   top: 14px;
   right: 16px;
+}
+@media screen and (min-width: 1025px) {
+  .p-head__menu {
+    display: none;
+  }
 }
 
 .p-serach {
@@ -246,11 +294,12 @@ h2 {
   color: #808080;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 40px;
 }
 .p-sidemenu__sub {
   color: #707070;
   font-size: 20px;
-  font-weight: lighter;
+  margin-bottom: 23px;
 }
 
 .p-nav {
@@ -322,6 +371,8 @@ h2 {
 }
 .p-access__text {
   text-align: center;
+  color: #FFF;
+  margin: 45px 21px;
 }
 
 .p-footer {

@@ -17,7 +17,7 @@
         display: block;
         position: relative;
         left: 2.8rem;
-        top:2em;
+        top:1.2rem;
     }
 
     &--footer {
@@ -28,10 +28,30 @@
         margin: 0.5rem;
     }
 
-    &__menu {
+    &__menu1 {
         width: 32px;
         height: 4px;
         background-color: #707070;
+        display: block;
+        transform: rotate(-45deg);
+        position: absolute;
+        top:25px;
+        right: 17px;
+        
 
     }
+
+    &__menu2 {
+        width: 32px;
+        height: 4px;
+        background-color: #707070;
+        display: block;
+        transform: rotate(45deg);
+        position: absolute;
+        top:25px;
+        right: 17px;
+        
+
+    }
+
 }
