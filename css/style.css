@@ -83,6 +83,11 @@ h2 {
 .l-sideber.open {
   right: 0%;
 }
+@media screen and (min-width: 700px) {
+  .l-sideber.open {
+    width: 44%;
+  }
+}
 @media screen and (min-width: 1025px) {
   .l-sideber.open {
     display: none;
@@ -120,10 +125,14 @@ h2 {
 .c-button--menu {
   color: #707070;
   font-family: "Roboto", sans-serif;
-  font-size: 34px;
   position: absolute;
-  top: 82px;
-  padding: 40px;
+}
+@media screen and (min-width: 1025px) {
+  .c-button--menu {
+    font-size: 34px;
+    top: 82px;
+    padding: 40px;
+  }
 }
 .c-button--submit {
   height: 46px;

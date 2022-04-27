@@ -11,11 +11,14 @@
     &--menu {
             color: #707070;
             font-family :v.$roboto;
-            font-size: 34px;
             position: absolute;
+            
+        @include m.mq(pc){
+
+            font-size: 34px;
             top: 82px;
             padding: 40px;
-            
+        }
 
 
 

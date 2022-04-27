@@ -16,6 +16,10 @@
 
     &.open {
         right: 0%;
+
+        @include m.mq(tab){
+            width: 44%;
+        }
         // transform: translateX()
         // transition: 3ms;
         @include m.mq(pc) {
