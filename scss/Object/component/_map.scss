@@ -12,6 +12,10 @@
         height: 60%;
         // z-index: 5;
         position: absolute;
+
+        @include m.mq(tab){
+            height: 100%;
+        }
     }
 
     &__light {
