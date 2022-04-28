@@ -33,10 +33,16 @@
         height: 4px;
         background-color: #707070;
         display: block;
-        transform: rotate(-45deg);
+        // transform: rotate(-45deg);
         position: absolute;
         top:25px;
         right: 17px;
+
+        &.open {
+            transform: rotate(-45deg);
+            transition: all 0.5;
+        }
+        
         
 
     }
@@ -46,10 +52,15 @@
         height: 4px;
         background-color: #707070;
         display: block;
-        transform: rotate(45deg);
+        // transform: rotate(45deg);
         position: absolute;
         top:25px;
         right: 17px;
+
+        &.open {
+            transform: rotate(45deg);
+            transition: all 0.5s;
+        }
         
 
     }

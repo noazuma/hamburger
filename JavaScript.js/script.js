@@ -6,8 +6,12 @@ $('.p-head__menu').on("click",function ()
 
   $('.l-sideber').toggleClass('open');
     //ボタン自身に openクラスを付与し
-   $('.c-cover').toggleClass('active');
+  $('.c-cover').toggleClass('active');
     // activeクラスを付与
+  $('.c-line__menu1').toggleClass('open');
+  // バツ動き1
+  $('.c-line__menu2').toggleClass('open');
+  // バツ動き2
 });
 
 $('.c-button__close').on("click",function () 

@@ -187,20 +187,26 @@ h2 {
   height: 4px;
   background-color: #707070;
   display: block;
-  transform: rotate(-45deg);
   position: absolute;
   top: 25px;
   right: 17px;
+}
+.c-line__menu1.open {
+  transform: rotate(-45deg);
+  transition: all 0.5;
 }
 .c-line__menu2 {
   width: 32px;
   height: 4px;
   background-color: #707070;
   display: block;
-  transform: rotate(45deg);
   position: absolute;
   top: 25px;
   right: 17px;
+}
+.c-line__menu2.open {
+  transform: rotate(45deg);
+  transition: all 0.5s;
 }
 
 .c-map__strong {
@@ -247,6 +253,16 @@ h2 {
   .c-close__bt {
     display: none;
   }
+}
+
+.c-icon {
+  background-image: url(../img/icon/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+
+.c-padding__bottom {
+  padding-bottom: 10rem;
 }
 
 .p-head {
