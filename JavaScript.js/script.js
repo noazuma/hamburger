@@ -22,6 +22,10 @@ $('.c-button__close').on("click",function ()
     //ボタンの activeクラスを除去し
     $('.c-cover').removeClass('active');
     //オーバーレイのactiveクラスも除去
+    $('.c-line__menu1').removeClass('open');
+    // バツ動き1　除去
+    $('.c-line__menu2').removeClass('open');
+    // バツ動き2 除去
 });
 
 });
