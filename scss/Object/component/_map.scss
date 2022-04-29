@@ -16,6 +16,10 @@
         @include m.mq(tab){
             height: 100%;
         }
+
+        @include m.mq(pc){
+            width: 61%;
+        }
     }
 
     &__light {

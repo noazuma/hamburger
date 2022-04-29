@@ -12,6 +12,8 @@ $('.p-head__menu').on("click",function ()
   // バツ動き1
   $('.c-line__menu2').toggleClass('open');
   // バツ動き2
+  $('body').css('overflow','hidden');
+  // メイン固定
 });
 
 $('.c-button__close').on("click",function () 
@@ -26,6 +28,8 @@ $('.c-button__close').on("click",function ()
     // バツ動き1　除去
     $('.c-line__menu2').removeClass('open');
     // バツ動き2 除去
+    $('body').css('overflow','visible');
+    // 初期値に戻す
 });
 
 // $('.p-serch__box').on("click",function () 
