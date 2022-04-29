@@ -20,6 +20,12 @@
         width: 230px;
         margin-right: 6px;
 
+        // ::placeholder {
+        //     background-image: url(../img/icon/search-icon.svg);
+        //     background-repeat: no-repeat;
+        //     background-position: 5px;
+        // }
+
         @include m.mq(pc){
             height: 46px;
             width: 396px;

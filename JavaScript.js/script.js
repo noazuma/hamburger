@@ -28,4 +28,16 @@ $('.c-button__close').on("click",function ()
     // バツ動き2 除去
 });
 
+// $('.p-serch__box').on("click",function () 
+
+// {//ボタンがクリックされたら
+
+//   $('.c-icon').toggleClass('display',':none');
+//     //虫メガネを消す
+  
+//   $('.').removeClass('open');
+
+
+
+// });
 });
