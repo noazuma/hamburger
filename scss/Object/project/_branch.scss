@@ -35,9 +35,17 @@
         
         &__box {
             background: rgba(255,255,255,0.8);
-            // height: 163px;
+            min-height: 124px;
             // width: 314px;
             margin: 0.6rem;
+
+            @include m.mq(tab){
+                min-height: 138px;
+            }
+
+            @include m.mq(pc){
+                min-height: 166px;
+            }
         }
 
         &__line {
