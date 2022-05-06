@@ -16,9 +16,9 @@
     transition: all 0.6s;
     padding-right: 60px;
 
-    @include m.mq(pc) {
-        transition: none;
-    }
+    // @include m.mq(pc) {
+    //     transition: none;
+    // }
 
     &.open {
         right: 0%;
@@ -31,7 +31,7 @@
         // transition: 3ms;
         @include m.mq(pc) {
             display: none;
-            transition: none;
+            // transition: none;
         }
     }
 
@@ -39,7 +39,7 @@
 
     @include m.mq(pc) {
         display: grid;
-        grid-column: 2/3;
+        grid-column: 2/4;
         grid-row: 1/4;
         right: 0;
         position:static;

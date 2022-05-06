@@ -10,7 +10,8 @@
     &__strong {
         background: rgba(0,0,0,0.4);
         height: 60%;
-        // z-index: 5;
+        width: 100%;
+        z-index: 100;
         position: absolute;
 
         @include m.mq(tab){
@@ -19,13 +20,15 @@
 
         @include m.mq(pc){
             width: 61%;
+            height: 100%;
         }
     }
 
     &__light {
         background: rgba(0,0,0,0.3);
+        width: 100%;
         height: 100%;
-        // z-index: 1;
-        position: relative;
+        z-index: 100;
+        position: absolute;
     }
 }
