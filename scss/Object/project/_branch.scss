@@ -25,7 +25,7 @@
 
     &--menu {
         display: grid;
-        height: 643px;
+        min-height: 643px;
         width: 335px;
 
         @include m.mq(tab) {
