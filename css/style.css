@@ -128,6 +128,10 @@ h2 {
   margin: 40px auto auto 42px;
   z-index: 200;
 }
+.c-title__archive {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
 
 .c-button--menu {
   color: #707070;
@@ -257,6 +261,11 @@ h2 {
   z-index: 900;
   background-color: rgba(15, 14, 14, 0.5);
 }
+.c-cover--front {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 25, 25, 0.3);
+}
 
 .c-close__menu {
   display: none;
@@ -283,6 +292,15 @@ h2 {
 
 .c-padding__bottom {
   padding-bottom: 10rem;
+}
+
+.c-text {
+  font-size: 16px;
+}
+.c-text--main {
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .p-head {
@@ -340,7 +358,9 @@ h2 {
   font-size: 36px;
   padding: 120px 134px 115px 24px;
 }
-
+.p-front__sub {
+  font-size: 16px;
+}
 .p-front--main {
   background-image: url(/img/mainvisual-sp@2x.jpg);
   background-size: cover;
@@ -355,6 +375,22 @@ h2 {
 @media screen and (min-width: 1162px) {
   .p-front--main {
     background-image: url(../img/mainvisual-pc.jpg);
+    background-position: center center;
+    height: 530px;
+  }
+}
+.p-front--menu {
+  background-image: url(/img/page-title/page-title_arcive@2x.jpg);
+  background-size: cover;
+  height: 285px;
+}
+@media screen and (min-width: 700px) {
+  .p-front--menu {
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .p-front--menu {
     background-position: center center;
     height: 530px;
   }

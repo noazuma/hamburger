@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+
+
+.c-text {
+    font-size: 16px;
+
+    &--main {
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: center;
+    }
+}
