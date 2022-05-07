@@ -12,7 +12,8 @@
             color: #707070;
             font-family :v.$roboto;
             position: absolute;
-            
+            cursor:pointer;
+
         @include m.mq(pc){
 
             font-size: 34px;
