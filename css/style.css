@@ -130,7 +130,10 @@ h2 {
 }
 .c-title__archive {
   font-size: 28px;
-  padding-bottom: 30px;
+}
+.c-title__card {
+  font-size: 20px;
+  color: #FFFFFF;
 }
 
 .c-button--menu {
@@ -301,6 +304,28 @@ h2 {
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+.c-card {
+  margin: 20px 20px;
+  gap: 20px;
+}
+@media screen and (min-width: 700px) {
+  .c-card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .c-card {
+    gap: 80px;
+    margin: 80px 80px;
+  }
+}
+.c-card__text {
+  color: #FFF;
 }
 
 .p-head {
@@ -531,6 +556,10 @@ h2 {
   font-size: 14px;
   font-weight: regular;
   text-align: center;
+}
+
+.p-card {
+  background-color: #3C2B1C;
 }
 
 /*Foundation*/

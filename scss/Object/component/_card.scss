@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+.c-card {
+    margin: 20px 20px;
+    gap: 20px;
+
+    @include m.mq(tab) {
+        display: flex;
+        justify-content: center;
+        gap:40px;
+    }
+
+    @include m.mq(pc) {
+        // display: flex;
+        // justify-content: center;
+        gap:80px;
+        margin: 80px 80px;
+    }
+
+    &__text {
+        color: #FFF;
+    }
+    
+}

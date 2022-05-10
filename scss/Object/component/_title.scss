@@ -30,7 +30,11 @@
 
     &__archive {
         font-size: 28px;
-        padding-bottom: 30px;
+    }
+
+    &__card {
+        font-size: 20px;
+        color: v.$hw;
     }
 
 
