@@ -21,8 +21,6 @@
             padding: 40px;
         }
 
-
-
     }
 
     &--submit {
@@ -34,14 +32,6 @@
                 margin-left: 6px;
                 cursor:pointer;
             }    
-    
-    // &__open {
-
-    // }        
-
-
-
-
             
 
     &__close {
@@ -53,7 +43,16 @@
             border: none;
             }
 
-
+    &__card {
+        width: 163.16px;
+        height: 42.47px;
+        border: solid;
+        border-radius: 20px;
+        background-color: #fff;
+        color: v.$main;
+        padding: 10px 40px;
+        margin: 40px 90px 40px 50px;
+    }
 
 
 }

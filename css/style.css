@@ -166,6 +166,16 @@ h2 {
   right: 7px;
   border: none;
 }
+.c-button__card {
+  width: 163.16px;
+  height: 42.47px;
+  border: solid;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #707070;
+  padding: 10px 40px;
+  margin: 40px 90px 40px 50px;
+}
 
 .c-grid {
   display: grid;
@@ -313,7 +323,6 @@ h2 {
 }
 @media screen and (min-width: 700px) {
   .c-card {
-    display: flex;
     justify-content: center;
     gap: 40px;
   }
@@ -326,6 +335,17 @@ h2 {
 }
 .c-card__text {
   color: #FFF;
+  font-size: 16px;
+}
+.c-card__box {
+  margin: 20px 20px;
+  gap: 20px;
+}
+@media screen and (min-width: 700px) {
+  .c-card__box {
+    display: flex;
+    gap: 0px;
+  }
 }
 
 .p-head {
@@ -560,6 +580,40 @@ h2 {
 
 .p-card {
   background-color: #3C2B1C;
+  padding-top: 32px;
+  padding-left: 17px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 700px) {
+  .p-card {
+    display: grid;
+    grid-column: 4/5;
+  }
+}
+.p-card__img {
+  width: 100%;
+}
+@media screen and (min-width: 700px) {
+  .p-card__img {
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50%;
+  }
+}
+.p-card__title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+.p-card__sub-title {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.p-card__text {
+  font-weight: lighter;
+  padding-right: 73px;
 }
 
 /*Foundation*/
