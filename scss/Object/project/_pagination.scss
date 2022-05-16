@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+
+.p-pagination {
+    display: flex;
+    justify-content: space-between;
+
+
+    &__text {
+        color: v.$main;
+        font-size: 16px;
+        font-weight: regular;
+        padding: 40.4px 45px 31px 45px;
+        position: absolute;
+        top: -45px;
+        white-space: nowrap;
+        
+    }
+
+    &__next{
+        background-image: url(/img/pagination/next.svg);
+        background-repeat: no-repeat;
+        position: relative;
+        height: 25px;
+    }
+    
+    &__back{
+        background-image: url(/img/pagination/back.svg);
+        background-repeat: no-repeat;
+        position: relative;
+        height: 25px;
+    }
+
+    }
+
