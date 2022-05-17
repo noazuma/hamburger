@@ -625,23 +625,7 @@ h2 {
   font-size: 16px;
   font-weight: regular;
   padding: 40.4px 45px 31px 45px;
-  position: absolute;
-  top: -45px;
-  white-space: nowrap;
 }
-.p-pagination__next {
-  background-image: url(/img/pagination/next.svg);
-  background-repeat: no-repeat;
-  position: relative;
-  height: 25px;
-}
-.p-pagination__back {
-  background-image: url(/img/pagination/back.svg);
-  background-repeat: no-repeat;
-  position: relative;
-  height: 25px;
-}
-
 /*Foundation*/
 /*component*/
 /*project*/
