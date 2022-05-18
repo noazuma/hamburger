@@ -620,6 +620,23 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (min-width: 700px) {
+  .p-pagination {
+    justify-content: center;
+  }
+}
+.p-pagination__page {
+  display: none;
+}
+@media screen and (min-width: 700px) {
+  .p-pagination__page {
+    display: flex;
+    position: relative;
+    top: 31px;
+    left: 70px;
+    white-space: nowrap;
+  }
+}
 .p-pagination__text {
   color: #707070;
   font-size: 16px;

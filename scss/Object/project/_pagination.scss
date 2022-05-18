@@ -9,6 +9,22 @@
     display: flex;
     justify-content: space-between;
 
+        @include m.mq (tab){
+            justify-content: center;
+        }
+
+    &__page{
+        display: none;
+        @include m.mq (tab){
+            display: flex;
+            position: relative;
+            top: 31px;
+            left: 70px;
+            white-space: nowrap;
+            }
+        }
+        
+        
 
     &__text {
         color: v.$main;
@@ -30,11 +46,6 @@
             bottom: 10px;
             right: 35px;
         }
-
-        // background-image: url(/img/pagination/next.svg);
-        // background-repeat: no-repeat;
-        // position: relative;
-        // height: 25px;
     }
     
     &__back{
@@ -46,10 +57,6 @@
             bottom: 10px;
             left: 35px;
         }
-        // background-image: url(/img/pagination/back.svg);
-        // background-repeat: no-repeat;
-        // position: relative;
-        // height: 25px;
     }
 
     &__list {
