@@ -11,16 +11,15 @@
 
         @include m.mq (tab){
             justify-content: center;
+            align-items: center;
         }
 
     &__page{
         display: none;
         @include m.mq (tab){
             display: flex;
-            position: relative;
-            top: 31px;
-            left: 70px;
             white-space: nowrap;
+            padding-right: 10px;
             }
         }
         
@@ -42,9 +41,10 @@
         display: flex;
         gap: 10px;
         @include m.mq (tab){
-            position: relative;
-            bottom: 10px;
-            right: 35px;
+            padding: 0
+            // position: relative;
+            // bottom: 10px;
+            // right: 35px;
         }
     }
     
@@ -53,9 +53,10 @@
         display: flex;
         gap:10px;
         @include m.mq (tab){
-            position: relative;
-            bottom: 10px;
-            left: 35px;
+            padding: 0;
+            // position: relative;
+            // bottom: 10px;
+            // left: 35px;
         }
     }
 
@@ -74,16 +75,19 @@
             border: .7px solid;
             height: 35px;
             width: 35px;
-            padding: 6px;
+            // padding: 6px;
             margin: 12px;
             display: inline-block;
             text-align: center;
+            :hover {
+                background-color: #3C2B1C;
+                color: #fff;
+            }
 
             a {
-                display: block;
-                height: 35px;
-                width: 35px;
-                padding-right: 12px;
+                display: inline-block;
+                padding: 6px;
+                width: 100%;
             }
 
     }
