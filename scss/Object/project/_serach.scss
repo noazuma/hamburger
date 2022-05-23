@@ -10,6 +10,7 @@
     text-align: center;
     @include m.mq(pc){
         margin: 96px 31px auto 0;
+        display: flex;
     }
     
 

@@ -9,12 +9,22 @@
     &__title {
         font-size: 36px;
         padding: 120px 134px 115px 24px;
+        
+        @include m.mq (tab){
+            display: flex;
+            font-size: 60px;
+            font-family: v.$roboto;
+        }
 
     }
 
     &__sub {
         font-size: 16px;
-        // padding: 120px 134px 115px 24px;
+        @include m.mq (tab){
+            padding-top:35px;
+            padding-left: 20px;
+        }
+
 
     }
 

@@ -384,6 +384,7 @@ h2 {
 @media screen and (min-width: 1162px) {
   .p-serach {
     margin: 96px 31px auto 0;
+    display: flex;
   }
 }
 .p-serach__box {
@@ -404,8 +405,21 @@ h2 {
   font-size: 36px;
   padding: 120px 134px 115px 24px;
 }
+@media screen and (min-width: 700px) {
+  .p-front__title {
+    display: flex;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+  }
+}
 .p-front__sub {
   font-size: 16px;
+}
+@media screen and (min-width: 700px) {
+  .p-front__sub {
+    padding-top: 35px;
+    padding-left: 20px;
+  }
 }
 .p-front--main {
   background-image: url(/img/mainvisual-sp@2x.jpg);
@@ -635,6 +649,14 @@ h2 {
     display: flex;
     white-space: nowrap;
     padding-right: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .p-pagination__page {
+    padding-right: 20px;
   }
 }
 .p-pagination__text {
@@ -657,6 +679,11 @@ h2 {
     padding: 0;
   }
 }
+@media screen and (min-width: 1162px) {
+  .p-pagination__next {
+    height: 30%;
+  }
+}
 .p-pagination__back {
   padding: 40.4px 45px 31px 45px;
   display: flex;
@@ -665,6 +692,11 @@ h2 {
 @media screen and (min-width: 700px) {
   .p-pagination__back {
     padding: 0;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .p-pagination__back {
+    height: 30%;
   }
 }
 .p-pagination__list {
