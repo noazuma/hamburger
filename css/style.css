@@ -85,6 +85,11 @@ h2 {
   transition: all 0.6s;
   padding-right: 60px;
 }
+@media screen and (min-width: 1162px) {
+  .l-sideber {
+    overflow: hidden;
+  }
+}
 .l-sideber.open {
   right: 0%;
   transition: all 0.6s;
@@ -499,7 +504,7 @@ h2 {
 }
 @media screen and (min-width: 700px) {
   .p-branch--menu {
-    height: 681px;
+    min-height: 681px;
     width: 356px;
   }
 }
