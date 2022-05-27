@@ -23,6 +23,10 @@ ul li {
   list-style-type: none;
 }
 
+h1 {
+  color: #fff;
+}
+
 h2 {
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
@@ -140,6 +144,11 @@ h2 {
 .c-title__card {
   font-size: 20px;
   color: #FFFFFF;
+}
+.c-title__shingle {
+  font-size: 28px;
+  color: #3C2A10;
+  font-weight: bold;
 }
 
 .c-button--menu {
@@ -426,6 +435,10 @@ h2 {
     padding-left: 20px;
   }
 }
+.p-front--top {
+  font-size: 36px;
+  padding: 0 0 0 26px;
+}
 .p-front--main {
   background-image: url(/img/mainvisual-sp@2x.jpg);
   background-size: cover;
@@ -458,6 +471,25 @@ h2 {
   .p-front--menu {
     background-position: center center;
     height: 530px;
+  }
+}
+.p-front--single {
+  background-image: url(/img/main/single-br.svg);
+  background-size: cover;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 700px) {
+  .p-front--single {
+    background-position: center center;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .p-front--single {
+    background-position: center center;
   }
 }
 

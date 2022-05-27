@@ -25,6 +25,12 @@
             padding-left: 20px;
         }
 
+    }
+
+    &--top {
+        font-size: 36px;
+        padding: 0 0 0 26px;
+        
 
     }
 
@@ -48,13 +54,27 @@
         background-size: cover;
         height: 285px;
         @include m.mq(tab) {
-            // background-image: url(/img/);
             background-size: cover;
         }
         @include m.mq(pc) {
-            // background-image: url(../img/mainvisual-pc.jpg);
             background-position: center center;
             height: 530px;
+        }
+    }
+
+    &--single {
+        background-image: url(/img/main/single-br.svg);
+        background-size: cover;
+        height: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include m.mq(tab) {
+            background-position: center center;
+            height: 500px;
+        }
+        @include m.mq(pc) {
+            background-position: center center;
         }
     }
 
