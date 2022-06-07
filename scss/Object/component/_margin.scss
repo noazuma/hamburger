@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+
+.c-margin {
+    
+        margin-top: 30px;
+
+    &--bottom {
+        margin-bottom: 30px;
+}
+}

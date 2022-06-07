@@ -8,11 +8,17 @@
 
 .c-text {
     font-size: 16px;
+    font-weight: regular;
 
     &--main {
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: regular;
         text-align: center;
+        padding: 30px 0 10px 0;
+    }
+
+    &--single {
+        font-size: 16px;
         padding: 30px 0 10px 0;
     }
 }

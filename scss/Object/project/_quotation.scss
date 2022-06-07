@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+.p-quotation {
+    padding: 30px 20px;
+    background-color: #F5F5F5;
+    
+    &__text {
+        color: #3C2A10;
+    }
+    
+}

@@ -32,6 +32,8 @@
 @use "Object/component/padding";
 @use "Object/component/text";
 @use "Object/component/card";
+@use "Object/component/shingle";
+@use "Object/component/margin";
 
 
 
@@ -47,6 +49,9 @@
 @use "Object/project/p-footer";
 @use "Object/project/p-card";
 @use "Object/project/pagination";
+@use "Object/project/quotation";
+@use "Object/project/figure";
+
 
 /*utility*/
 

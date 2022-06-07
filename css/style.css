@@ -146,7 +146,6 @@ h2 {
   color: #FFFFFF;
 }
 .c-title__shingle {
-  font-size: 28px;
   color: #3C2A10;
   font-weight: bold;
 }
@@ -324,11 +323,16 @@ h2 {
 
 .c-text {
   font-size: 16px;
+  font-weight: regular;
 }
 .c-text--main {
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: regular;
   text-align: center;
+  padding: 30px 0 10px 0;
+}
+.c-text--single {
+  font-size: 16px;
   padding: 30px 0 10px 0;
 }
 
@@ -361,6 +365,39 @@ h2 {
     display: flex;
     gap: 0px;
   }
+}
+.c-card__single {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 20px;
+  gap: 10px;
+}
+
+.c-shingle {
+  font-size: 28px;
+}
+@media screen and (min-width: 700px) {
+  .c-shingle {
+    font-size: 28px;
+  }
+}
+.c-shingle h3 {
+  font-size: 24px;
+}
+@media screen and (min-width: 700px) {
+  .c-shingle h3 {
+    font-size: 28px;
+  }
+}
+.c-shingle h4, .c-shingle h5, .c-shingle h6 {
+  font-size: 20px;
+}
+
+.c-margin {
+  margin-top: 30px;
+}
+.c-margin--bottom {
+  margin-bottom: 30px;
 }
 
 .p-head {
@@ -761,6 +798,21 @@ h2 {
   display: inline-block;
   padding: 6px;
   width: 100%;
+}
+
+.p-quotation {
+  padding: 30px 20px;
+  background-color: #F5F5F5;
+}
+.p-quotation__text {
+  color: #3C2A10;
+}
+
+.p-figure__img {
+  width: 50%;
+}
+.p-figure__text {
+  width: 45%;
 }
 
 /*Foundation*/
