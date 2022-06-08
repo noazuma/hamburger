@@ -6,11 +6,16 @@
 
 
 .p-figure {
-
+        padding: 0 30px 30px;
     &__img {
         width: 50%;
     }
     &__text {
         width: 45%;
     }
+    &__list {
+        width: 100%;
+        gap: 20px;
+    }
+
 }

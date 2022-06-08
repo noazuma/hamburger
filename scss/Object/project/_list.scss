@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
+
+.p-list {
+    ol :nth-child(2){
+        margin: 0 0 0 18px;
+    }
+}
