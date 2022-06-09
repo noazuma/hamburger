@@ -373,23 +373,23 @@ h2 {
   gap: 10px;
 }
 
-.c-shingle {
+.c-single {
   font-size: 28px;
 }
 @media screen and (min-width: 700px) {
-  .c-shingle {
+  .c-single {
     font-size: 28px;
   }
 }
-.c-shingle h3 {
+.c-single h3 {
   font-size: 24px;
 }
 @media screen and (min-width: 700px) {
-  .c-shingle h3 {
+  .c-single h3 {
     font-size: 28px;
   }
 }
-.c-shingle h4, .c-shingle h5, .c-shingle h6 {
+.c-single h4, .c-single h5, .c-single h6 {
   font-size: 20px;
 }
 
@@ -825,7 +825,7 @@ h2 {
   gap: 20px;
 }
 
-.p-list ol :nth-child(2) {
+.p-list ol :nth-of-type(2) {
   margin: 0 0 0 18px;
 }
 

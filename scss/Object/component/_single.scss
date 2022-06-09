@@ -4,7 +4,7 @@
 @use "../../Foundation/variable" as v;
 
 
-.c-shingle {
+.c-single {
     font-size: 28px; 
     @include m.mq(tab){
         font-size: 28px;
