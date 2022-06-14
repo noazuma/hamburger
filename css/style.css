@@ -190,6 +190,15 @@ h2 {
   padding: 10px 40px;
   margin: 40px auto;
 }
+.c-button--single {
+  width: 100%;
+  color: #3C2A10;
+  font-weight: bold;
+  background-color: #F2EDE9;
+  padding: 30px 140px 30px 140px;
+  border: 0.1px solid;
+  border-radius: 20px;
+}
 
 .c-grid {
   display: grid;
@@ -334,6 +343,9 @@ h2 {
 .c-text--single {
   font-size: 16px;
   padding: 30px 0 10px 0;
+}
+.c-text--bold {
+  font-weight: bold;
 }
 
 .c-card {
@@ -617,6 +629,9 @@ h2 {
   background-size: cover;
   width: 100%;
 }
+.p-container--single {
+  padding-bottom: 177px;
+}
 
 .p-access {
   background-image: url(../img/map/br-map.png);
@@ -833,6 +848,20 @@ h2 {
 }
 .p-list ul:nth-child(2) {
   margin: 0 0 0 18px;
+}
+
+.p-table {
+  width: 100%;
+  border: 0.1px solid #707070;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+.p-table td {
+  border: 0.1px solid;
+  padding: 30px 0 30px 30px;
+}
+.p-table td:nth-child(1) {
+  width: 33%;
 }
 
 /*Foundation*/
