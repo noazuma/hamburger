@@ -13,6 +13,9 @@
         @include m.mq(tab){
         grid-template-columns: 1fr 1fr;
     }
+        @include m.mq(pc){
+        grid-template-columns: 1fr 1fr 1fr;
+        }
     }
 
 }
