@@ -196,8 +196,13 @@ h2 {
   font-weight: bold;
   background-color: #F2EDE9;
   padding: 30px 140px 30px 140px;
-  border: 0.1px solid;
+  border: 1px solid #707070;
   border-radius: 20px;
+}
+@media screen and (min-width: 700px) {
+  .c-button--single {
+    width: 62%;
+  }
 }
 
 .c-grid {
@@ -645,11 +650,11 @@ h2 {
 }
 
 .p-container {
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 @media screen and (min-width: 700px) {
   .p-container {
-    padding: 60px;
+    padding: 60px 60px 0 60px;
   }
 }
 .p-container__take-out {
@@ -666,6 +671,11 @@ h2 {
 }
 .p-container--single {
   padding-bottom: 177px;
+}
+@media screen and (min-width: 700px) {
+  .p-container--single {
+    padding-bottom: 228px;
+  }
 }
 
 .p-access {
@@ -871,7 +881,7 @@ h2 {
 }
 @media screen and (min-width: 700px) {
   .p-figure {
-    padding: 0 30px 12rem;
+    padding: 0 60px 12rem;
   }
 }
 .p-figure__img {

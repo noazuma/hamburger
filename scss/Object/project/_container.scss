@@ -5,9 +5,9 @@
 
 .p-container {
 
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     @include m.mq(tab){
-        padding: 60px;
+        padding: 60px 60px 0 60px;
     }
 
     &__take-out {
@@ -32,5 +32,8 @@
 
     &--single {
         padding-bottom: 177px;
+        @include m.mq(tab){
+            padding-bottom: 228px;
+        }
     }
 }
