@@ -333,6 +333,7 @@ h2 {
 .c-text {
   font-size: 16px;
   font-weight: regular;
+  color: #3C2A10;
 }
 .c-text--main {
   font-size: 16px;
@@ -384,13 +385,19 @@ h2 {
   margin: 30px 20px;
   gap: 10px;
 }
+@media screen and (min-width: 700px) {
+  .c-card__single {
+    margin: 60px 0;
+    gap: 20px;
+  }
+}
 
 .c-single {
   font-size: 28px;
 }
 @media screen and (min-width: 700px) {
   .c-single {
-    font-size: 28px;
+    font-size: 36px;
   }
 }
 .c-single h3 {
@@ -403,16 +410,36 @@ h2 {
 }
 .c-single h4, .c-single h5, .c-single h6 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .c-margin {
   margin-top: 30px;
 }
+@media screen and (min-width: 700px) {
+  .c-margin {
+    margin-top: 60px;
+  }
+}
 .c-margin--bottom {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 700px) {
+  .c-margin--bottom {
+    margin-bottom: 50px;
+  }
+}
 .c-margin--bottom20 {
   margin-bottom: 20px;
+}
+
+.c-img {
+  width: 100%;
+}
+@media screen and (min-width: 700px) {
+  .c-img__grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .p-head {
@@ -617,6 +644,14 @@ h2 {
   padding: 0.5rem;
 }
 
+.p-container {
+  padding: 20px;
+}
+@media screen and (min-width: 700px) {
+  .p-container {
+    padding: 60px;
+  }
+}
 .p-container__take-out {
   background-image: url(../img/top-menu/three-burgers-on.png);
   flex-direction: column;
@@ -822,6 +857,11 @@ h2 {
   padding: 30px 20px;
   background-color: #F5F5F5;
 }
+@media screen and (min-width: 700px) {
+  .p-quotation {
+    padding: 50px;
+  }
+}
 .p-quotation__text {
   color: #3C2A10;
 }
@@ -829,11 +869,26 @@ h2 {
 .p-figure {
   padding: 0 30px 30px;
 }
+@media screen and (min-width: 700px) {
+  .p-figure {
+    padding: 0 30px 12rem;
+  }
+}
 .p-figure__img {
   width: 50%;
 }
+@media screen and (min-width: 700px) {
+  .p-figure__img {
+    width: 40%;
+  }
+}
 .p-figure__text {
   width: 45%;
+}
+@media screen and (min-width: 700px) {
+  .p-figure__text {
+    width: 60%;
+  }
 }
 .p-figure__list {
   width: 100%;

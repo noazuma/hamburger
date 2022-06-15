@@ -5,6 +5,11 @@
 
 .p-container {
 
+    padding: 20px;
+    @include m.mq(tab){
+        padding: 60px;
+    }
+
     &__take-out {
         // display: flex;
         background-image: url(../img/top-menu/three-burgers-on.png);

@@ -34,6 +34,7 @@
 @use "Object/component/card";
 @use "Object/component/single";
 @use "Object/component/margin";
+@use "Object/component/img";
 
 
 
@@ -57,5 +58,6 @@
 
 
 /*utility*/
+@use "Object/utility/u-margin";
 
 // display: grid; grid-template-columns: 1fr 19%; grid-template-rows: 1fr 150px;

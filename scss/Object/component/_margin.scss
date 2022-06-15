@@ -9,8 +9,16 @@
     
         margin-top: 30px;
 
+        @include m.mq(tab){
+            margin-top: 60px;
+        }
+
     &--bottom {
         margin-bottom: 30px;
+
+        @include m.mq(tab){
+        margin-bottom: 50px;
+        }
 }
     &--bottom20 {
         margin-bottom: 20px;

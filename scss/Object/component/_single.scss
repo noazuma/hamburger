@@ -7,7 +7,7 @@
 .c-single {
     font-size: 28px; 
     @include m.mq(tab){
-        font-size: 28px;
+        font-size: 36px;
     }
 
     h3{
@@ -18,5 +18,6 @@
     }
     h4,h5,h6 {
         font-size: 20px;
+        font-weight: bold;
     }
 }

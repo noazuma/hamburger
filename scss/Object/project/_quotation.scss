@@ -7,6 +7,9 @@
 .p-quotation {
     padding: 30px 20px;
     background-color: #F5F5F5;
+    @include m.mq(tab){
+        padding: 50px;
+    }
     
     &__text {
         color: #3C2A10;
