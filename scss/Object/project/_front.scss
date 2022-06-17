@@ -30,7 +30,9 @@
     &--top {
         font-size: 36px;
         padding: 0 0 0 26px;
-        
+        @include m.mq(tab){
+            font-size: 60px;
+        }
 
     }
 

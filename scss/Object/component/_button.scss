@@ -66,6 +66,9 @@
         @include m.mq(tab){
             width: 62%;
         }
+        @include m.mq(pc){
+            width: 34%;
+        }
     }
 }
 

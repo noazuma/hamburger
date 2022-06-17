@@ -35,5 +35,8 @@
         @include m.mq(tab){
             padding-bottom: 228px;
         }
+        @include m.mq(pc){
+            padding-bottom: 353px;
+        }
     }
 }
