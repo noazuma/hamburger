@@ -72,13 +72,33 @@
         flex-direction: column;
         justify-content: center;
         @include m.mq(tab) {
-            background-position: center center;
+            background-image: url(/img/main/single-br-tab.svg);
+            // background-position: center center;
             height: 500px;
         }
         @include m.mq(pc) {
-            background-position: center center;
+            background-image: url(/img/main/single-br-pc.svg);
+            // background-position: center center;
         }
     }
 
+
+    &--page {
+        background-image: url(/img/page.svg);
+        background-size: cover;
+        height: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include m.mq(tab) {
+            background-image: url(/img/main/page_tab.svg);
+            // background-position: center center;
+            height: 500px;
+        }
+        @include m.mq(pc) {
+            background-image: url(/img/main/page_pc.svg);
+            // background-position: center center;
+        }
+    }
 }
 

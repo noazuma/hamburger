@@ -583,13 +583,32 @@ h2 {
 }
 @media screen and (min-width: 700px) {
   .p-front--single {
-    background-position: center center;
+    background-image: url(/img/main/single-br-tab.svg);
     height: 500px;
   }
 }
 @media screen and (min-width: 1162px) {
   .p-front--single {
-    background-position: center center;
+    background-image: url(/img/main/single-br-pc.svg);
+  }
+}
+.p-front--page {
+  background-image: url(/img/page.svg);
+  background-size: cover;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 700px) {
+  .p-front--page {
+    background-image: url(/img/main/page_tab.svg);
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .p-front--page {
+    background-image: url(/img/main/page_pc.svg);
   }
 }
 
